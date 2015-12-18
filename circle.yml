@@ -5,7 +5,7 @@ machine:
 dependencies:
   cache_directories:
     - "~/sklearn_data_home"
-    - "~/scikit-learn.github.io"
+    - "scikit-learn.github.io"
   # Various dependencies
   pre:
     - sudo apt-get update
@@ -14,6 +14,7 @@ dependencies:
     - sudo apt-get install python-numpy python-scipy python-dev python-matplotlib
     - sudo apt-get install python-nose python-coverage
     - sudo apt-get install python-sphinx
+    - sudo apt-get install dvipng texlive-latex-base texlive-latex-extra
     - pip install cython
   # The --user is needed to let sphinx see the source and the binaries
   # The pipefail is requested to propagate exit code
