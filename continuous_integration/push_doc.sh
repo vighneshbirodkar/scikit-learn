@@ -10,7 +10,7 @@ then USERNAME="sklearn-ci";
 else USERNAME=$CIRCLE_PROJECT_USERNAME;
 fi
 
-DOC_REPO="sklearn.github.io"
+DOC_REPO="scikit-learn.github.io"
 
 MSG="Pushing the docs for revision for branch: $CIRCLE_BRANCH, commit $CIRCLE_SHA1"
 
