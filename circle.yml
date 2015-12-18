@@ -14,6 +14,7 @@ dependencies:
     - sudo apt-get install build-essential python-dev python-setuptools
     - sudo apt-get install python-numpy python-scipy python-dev python-matplotlib
     - sudo apt-get install python-nose python-coverage
+    - sudo apt-get install python-sphinx
     # Installing required packages for `make -C doc check command` to work.
     - sudo -E apt-get -yq update
     - sudo -E apt-get -yq --no-install-suggests --no-install-recommends --force-yes install dvipng texlive-latex-base texlive-latex-extra
