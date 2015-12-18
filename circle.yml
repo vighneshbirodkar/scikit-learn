@@ -17,6 +17,7 @@ dependencies:
     # Installing required packages for `make -C doc check command` to work.
     - sudo -E apt-get -yq update
     - sudo -E apt-get -yq --no-install-suggests --no-install-recommends --force-yes install dvipng texlive-latex-base texlive-latex-extra
+    - pip install cython
 
   # The --user is needed to let sphinx see the source and the binaries
   # The pipefail is requested to propagate exit code
